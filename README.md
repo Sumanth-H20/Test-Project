@@ -1,6 +1,18 @@
 # Test-Project
 this repo is for practice purpose
 
+#intializing git repositories
+git clone $url$
+git init          ---------------- initialize git repo
+git add .         ----------------- to add the file to stagging area (all files)
+git commit -m "commit message"  -------to commit the changes to repo
+git push -u $branch name$     -------------to push the changes to remote repo
+
+optional
+git remote add origin <remote_repository_url>    ---------------to add the remote repo
+git remote -v          ------------------------ to check the remote repo
+
+
 
 #Jenkins Installation
 ref: https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
