@@ -75,8 +75,9 @@ login to jenkins with intial password
 <img width="1632" height="868" alt="image" src="https://github.com/user-attachments/assets/3489efae-c503-4c30-bc14-20a5ef05cde6" />
 
 
-configuring the pipeline as from SCM option and providing the url and branch name
-<img width="1775" height="910" alt="image" src="https://github.com/user-attachments/assets/ed164bfc-7011-4180-bbbf-4892debe02c7" />
+configuring the pipeline as from SCM option and providing the url and branch name and also provide the jenkins file name & path
+<img width="1832" height="928" alt="image" src="https://github.com/user-attachments/assets/fb07bd8a-f876-49ab-b887-37fb6f929812" />
+
 
 
 
