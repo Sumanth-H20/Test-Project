@@ -6,6 +6,10 @@ pipeline {
     maven 'Maven"
   }
 
+  environment {
+        MAVEN_OPTS = '-Dnet.bytebuddy.experimental=true -XX:+EnableDynamicAgentLoading'
+  }
+
   stages {
     stage("code checkout") {
       steps {
@@ -27,5 +31,9 @@ pipeline {
         }
       }
     }
-
+    stage("Build") {
+      steps {
+        sh 'mvn clean package -DskipTests=true'
+      }
+    }
     
