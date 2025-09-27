@@ -90,6 +90,16 @@ under repo settings -webhook --add webhook
 you should see below message if the connection is success.
 <img width="1216" height="460" alt="image" src="https://github.com/user-attachments/assets/5da995ef-f30f-438e-9771-6b29028607b4" />
 
+now we need to add the tools.
+for java
+<img width="1312" height="546" alt="image" src="https://github.com/user-attachments/assets/6e10996d-9063-4a35-bd84-ed63e3e92bd0" />
+
+for maven
+<img width="1255" height="497" alt="image" src="https://github.com/user-attachments/assets/56c89903-20d2-4e47-bcdf-d2410cc0acb0" />
+
+apply-save.
+
+
 
 
 
