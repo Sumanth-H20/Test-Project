@@ -78,6 +78,22 @@ login to jenkins with intial password
 configuring the pipeline as from SCM option and providing the url and branch name and also provide the jenkins file name & path
 <img width="1832" height="928" alt="image" src="https://github.com/user-attachments/assets/fb07bd8a-f876-49ab-b887-37fb6f929812" />
 
+installed below plugins as first requirement
+<img width="1918" height="528" alt="image" src="https://github.com/user-attachments/assets/6b9955a8-80c1-4062-bca4-16a131a0c735" />
+
+
+After this step add the webhook
+
+under repo settings -webhook --add webhook
+<img width="1150" height="873" alt="image" src="https://github.com/user-attachments/assets/c3324166-1963-4855-8ead-3a6c0defdfad" />
+
+you should see below message if the connection is success.
+<img width="1216" height="460" alt="image" src="https://github.com/user-attachments/assets/5da995ef-f30f-438e-9771-6b29028607b4" />
+
+
+
+
+
 
 
 
