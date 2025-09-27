@@ -42,12 +42,7 @@ pipeline {
     }
     stage("Sonarquebe integration") {
       steps {
-        sh """
-        mvn sonar:sonar \
-        -Dsonar.projectKey=Test-Project \
-        -Dsonar.host.url=http://18.138.253.240:9000 \
-        -Dsonar.login=dbe58dec08e7f559a2d00e57f410584a51d83eba
-        """
+
       }
     }
   }
