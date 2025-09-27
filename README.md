@@ -122,6 +122,24 @@ now select maven as build
 <img width="1638" height="732" alt="image" src="https://github.com/user-attachments/assets/fe393b50-cb05-4bda-bf78-02eacc53f721" />
 
 get those commands and add them in the pipeline stage.
+you should get passed message in sonarqube console
+<img width="1658" height="651" alt="image" src="https://github.com/user-attachments/assets/9d57b59e-ac85-4843-88be-59fb8dbd09f9" />
+
+now we are trying to introduce quality gates
+for that we need to add sonarqube webhook so if the quality gate is not passed then the pipeline should fail.
+for the creation of webhook
+under projects -->project settings --> webhooks ->craete -->
+<img width="592" height="742" alt="image" src="https://github.com/user-attachments/assets/37cb075d-0514-41c4-8344-9f888b57b99c" />
+
+after that install sonarqube plugin in Jenkins
+<img width="1432" height="290" alt="image" src="https://github.com/user-attachments/assets/cd747fd7-efaa-41d3-a125-c7098ec96006" />
+
+now for the connection between sonar and jenkins 
+navigate to manage jenkins - systems -- add
+<img width="1740" height="645" alt="image" src="https://github.com/user-attachments/assets/3352cbf1-568d-4e30-93a6-fd4f2990d929" />
+for the secrete form sonarqube navigate to myaccount - security - provide secrete name - generate
+<img width="1312" height="851" alt="image" src="https://github.com/user-attachments/assets/c71e7a22-c940-431b-925f-bf304c81501b" />
+
 
 
 
