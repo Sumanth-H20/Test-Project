@@ -2,7 +2,6 @@ pipeline {
   agent any
 
   tools {
-    jdk 'java-11'
     maven 'Maven'
   }
 
@@ -24,11 +23,6 @@ pipeline {
     stage("Test") {
       steps{
         sh 'mvn test'
-      }
-      post {
-        always {
-          junit allowEmptyResults: true, testresults:'**/targets/*xml'
-        }
       }
     }
     stage("Build") {
