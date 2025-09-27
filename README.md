@@ -100,9 +100,7 @@ for maven
 apply-save.
 
 
-
-
-
+Now try to build the from Jenkins pipeline.
 
 
 
