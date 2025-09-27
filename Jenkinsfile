@@ -30,5 +30,15 @@ pipeline {
         sh 'mvn clean package -DskipTests=true'
       }
     }
+    stage("Publish the code coverage report") {
+      steps {
+        sh 'mvn jacoco:report'
+      }
+      post {
+        always {
+          jacoco execPattern: '**/target/jacoco.exec', classPattern: '**/target/classes', sourcePattern: '**/src/main/java', exclusionPattern: '', changeBuildStatus: true
+        }
+      }
+    }
   }
 }
