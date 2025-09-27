@@ -101,6 +101,34 @@ apply-save.
 
 
 Now try to build the from Jenkins pipeline.
+<img width="1757" height="540" alt="image" src="https://github.com/user-attachments/assets/160e44db-e8e3-4991-8241-3c8f23e0ddc2" />
+
+till above screenshot the build is successful.
+
+now installing sonarqube using docker. with below command
+docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:8.9.1-community
+
+check for running container 
+docker ps
+the default password and username will be admin
+you should below page
+<img width="1746" height="745" alt="image" src="https://github.com/user-attachments/assets/0267864b-b4ae-42f3-9419-bd5b68ac45be" />
+adding the project manually.
+<img width="1057" height="552" alt="image" src="https://github.com/user-attachments/assets/2e66addd-52e8-45fa-a471-01fcaf444f2a" />
+it will ask for toen generation, provide the name -> generate -> continue
+<img width="1267" height="511" alt="image" src="https://github.com/user-attachments/assets/ce17f812-b279-44bf-b925-61c0c187ee0e" />
+
+now select maven as build
+<img width="1638" height="732" alt="image" src="https://github.com/user-attachments/assets/fe393b50-cb05-4bda-bf78-02eacc53f721" />
+
+get those commands and add them in the pipeline stage.
+
+
+
+
+
+
+
 
 
 
